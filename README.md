@@ -17,6 +17,7 @@ When you create a conenction to Eden AI, do not forget the keyword Bearer before
 
 ## Supported Operations
 The connector supports the following operations:
+[Image Generation](###image-generation)
 
 ### Convert Text into Speech
 Converts normal language text into speech.
