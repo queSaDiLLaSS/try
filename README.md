@@ -17,6 +17,7 @@ When you create a conenction to Eden AI, do not forget the keyword Bearer before
 
 ## Supported Operations
 The connector supports the following operations:
+[Image Generation](###image-generation)
 
 ### Convert Text into Speech
 Converts normal language text into speech.
@@ -95,7 +96,7 @@ Extracts structured information in identity documents (passports, identity cards
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/ocr_identity_parser_create).
 * `file`: Choose the file you want to analyze.
 
-### Extract Information in Receipts
+### <a name="tith"></a> Extract Information in Receipts
 Extracts information in receipts.
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/ocr_receipt_parser_create).
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/ocr_receipt_parser_create).
