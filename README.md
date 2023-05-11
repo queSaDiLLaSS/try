@@ -37,7 +37,7 @@ The connector supports the following operations:
 |[Extract Information in Invoices](#extract-information-in-invoices) | Extracts the data in contains (items, prices, addresses, vendor name, etc.) to automate the invoice processing. |
 |[Extract Information in Resumes](#extract-information-in-resumes) | Extracts structured data (name, job list, education, skills) to automate the resume processing. |
 |[Extract Informations in Identity Documents](#extract-informations-in-identity-documents) | Extracts structured information in identity documents (passports, identity cards, driver license, etc.). |
-|[Extract Information in Receipts](#extract-information-in-receipts) | Extract structured information like products purchased, quantity, price, date and VAT from receipts. |
+|[Extract Information in Receipts](#extract-information-in-receipts) | Extracts structured information like products purchased, quantity, price, date and VAT from receipts. |
 
 ### Convert Text into Speech
 Converts normal language text into speech.
@@ -131,7 +131,7 @@ Extracts the most important sentences from a text in order to create a smaller v
 * `settings`: Specify specific models to use for some providers. It can be in the following format: {'google' : 'google_model', 'ibm': 'ibm_model'...}. Check the model available [here](https://api.edenai.run/v2/info/provider_subfeatures?subfeature__name=summarize&feature__name=text).
 
 ### Detect Language of Text
-Detects language of text.
+identify the specific linguistic features that are unique to each language.
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/translation_language_detection_create).
 * `text`: Tap or paste the text you want to analyze.
 
@@ -142,13 +142,13 @@ Identifies general sentiment of a text and returns positive, negative or neutral
 * `text`: Tap or paste the text you want to analyze.
 
 ### Extract Information in Invoices
-Extracts information in invoices.
+Extracts the data in contains (items, prices, addresses, vendor name, etc.) to automate the invoice processing.
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/ocr_invoice_parser_create).
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/ocr_invoice_parser_create).
 * `file`: Choose the file you want to analyze.
 
 ### Extract Information in Resumes
-Extracts information in resumes.
+Extracts structured data (name, job list, education, skills) to automate the resume processing.
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/ocr_resume_parser_create).
 * `file`: Choose the file you want to analyze.
 
@@ -158,7 +158,7 @@ Extracts structured information in identity documents (passports, identity cards
 * `file`: Choose the file you want to analyze.
 
 ### Extract Information in Receipts
-Extracts information in receipts.
+Extracts structured information like products purchased, quantity, price, date and VAT from receipts.
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/ocr_receipt_parser_create).
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/ocr_receipt_parser_create).
 * `file`: Choose the file you want to analyze.
