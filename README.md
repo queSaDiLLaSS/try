@@ -18,7 +18,7 @@ When you create a connection to Eden AI, do not forget the keyword **Bearer** be
 ## Supported Operations
 The connector supports the following operations:
 | Action | Description |
-| :---    | :---        |
+| :---    | :---       |
 |[Convert Text into Speech](#convert-text-into-speech) | Converts normal language text into speech. |
 |[Detect Explicit Content in Images](#detect-explicit-content-in-images) | Detects adult explicit content in images, that is generally inappropriate for people under the age of 18 and includes nudity, sexual activity and pornography... 
 |[Extract Named Entities in Text](#extract-named-entities-in-text) | Identifies named entities in a text and classifies them into predefined categories.|
@@ -40,6 +40,12 @@ Converts normal language text into speech.
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/audio_text_to_speech_create).
 * `text`: Enter the text you want to convert into audio.
 * `option`: Enter MALE or FEMALE to choose the voice gender.
+* `settings`: Specify specific models to use for some providers. It can be in the following format: {'google' : 'google_model', microsoft': 'microsoft_model'...}. Check the model available [here](https://staging-api.edenai.run/v2/info/provider_subfeatures?subfeature__name=text_to_speech&feature__name=audio).
+* `rate`: Increase or decrease the speaking rate by expressing a positif or negatif number ranging between 100 and -100 (a relative value as percentage varying from -100% to 100%).
+* `pitch`: Increase or decrease the speaking pitch by expressing a positif or negatif number ranging between 100 and -100 (a relative value as percentage varying from -100% to 100%).
+* `volume`: Increase or decrease the audio volume by expressing a positif or negatif number ranging between 100 and -100 (a relative value as percentage varying from -100% to 100%).
+* `audio_format`: Optional parameter to specify the audio format in which the audio will be generated. By default, audios are encoded in MP3, except for lovoai which use the wav container.
+* `sampling_rate`: Optional. The synthesis sample rate (in hertz) for this audio. When this is specified, the audio will be converted either to the right passed value, or to a the nearest value acceptable by the provider.
 
 ### Detect Explicit Content in Images
 Detects adult explicit content in images, that is generally inappropriate for people under the age of 18 and includes nudity, sexual activity and pornography...
@@ -83,6 +89,7 @@ Extracts the most important sentences from a text in order to create a smaller v
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/text_summarize_create).
 * `text`: Tap or paste the text you want to analyze.
 * `output_sentences`: Enter the sentence number of the summary.
+* `settings`: Specify specific models to use for some providers. It can be in the following format: {'google' : 'google_model', ibm': 'ibm_model'...}. Check the model available [here](https://staging-api.edenai.run/v2/info/provider_subfeatures?subfeature__name=summarize&feature__name=text).
 
 ### Detect Language of Text
 Detects language of text.
