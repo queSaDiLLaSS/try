@@ -26,18 +26,18 @@ The connector supports the following operations:
 |[Extract Topic from Text](#extract-topic-from-text) | Extracts general topics in a text. |
 |[Extract Keywords from Text](#extract-keywords-from-text) | Extracts the most important words and expressions in a text. |
 |[Extract Named Entities in Text](#extract-named-entities-in-text) | Identifies named entities in a text and classifies them into predefined categories. |
-|[Anonymize Images](#anonymize-images) | Identifies human faces in digital images: position, sex, age, smile, glasses, etc. |
+|[Anonymize Images](#anonymize-images) | Anonymizes an image by bluring sensitive parts (faces, car plates, etc.) |
 |[Detect Faces in Images](#detect-faces-in-images) | Identifies human faces in digital images: position, sex, age, smile, glasses, etc. |
 |[Image Generation](#image-generation) | Generates compelling images based on a given prompt. |
 |[Translate Text into another Language](#translate-text-into-another-language) | Translates a text into another language using rules, statics or ML technics. |
-|[Moderate Text](#moderate-text) | Moderates a text by detecting explicit content. |
+|[Moderate Texts](#moderate-texts) | Moderates a text by detecting explicit content. |
 |[Summarize a Text](#summarize-a-text) | Extracts the most important sentences from a text in order to create a smaller version of the text. |
 |[Detect Language of Text](#detect-language-of-text) | Detects language of text. |
 |[Identify General Sentiment of a Text](#identify-general-sentiment-of-a-text) | Identifies general sentiment of a text and returns positive, negative or neutral. |
-|[Extract Information in Invoices](#extract-information-in-invoices) | Extracts information in invoices. |
-|[Extract Information in Resumes](#extract-information-in-resumes) | Extracts information in resumes. |
+|[Extract Information in Invoices](#extract-information-in-invoices) | Extracts the data in contains (items, prices, addresses, vendor name, etc.) to automate the invoice processing. |
+|[Extract Information in Resumes](#extract-information-in-resumes) | Extracts structured data (name, job list, education, skills) to automate the resume processing. |
 |[Extract Informations in Identity Documents](#extract-informations-in-identity-documents) | Extracts structured information in identity documents (passports, identity cards, driver license, etc.). |
-|[Extract Information in Receipts](#extract-information-in-receipts) | Extracts information in receipts. |
+|[Extract Information in Receipts](#extract-information-in-receipts) | Extract structured information like products purchased, quantity, price, date and VAT from receipts. |
 
 ### Convert Text into Speech
 Converts normal language text into speech.
