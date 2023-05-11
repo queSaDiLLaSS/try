@@ -32,7 +32,7 @@ The connector supports the following operations:
 |[Translate Text into another Language](#translate-text-into-another-language) | Translates a text into another language using rules, statics or ML technics. |
 |[Moderate Texts](#moderate-texts) | Moderates a text by detecting explicit content. |
 |[Summarize a Text](#summarize-a-text) | Extracts the most important sentences from a text in order to create a smaller version of the text. |
-|[Detect Language of Text](#detect-language-of-text) | Detects language of text. |
+|[Detect Language of Text](#detect-language-of-text) | Identifies the specific linguistic features that are unique to each language. |
 |[Identify General Sentiment of a Text](#identify-general-sentiment-of-a-text) | Identifies general sentiment of a text and returns positive, negative or neutral. |
 |[Extract Information in Invoices](#extract-information-in-invoices) | Extracts the data in contains (items, prices, addresses, vendor name, etc.) to automate the invoice processing. |
 |[Extract Information in Resumes](#extract-information-in-resumes) | Extracts structured data (name, job list, education, skills) to automate the resume processing. |
