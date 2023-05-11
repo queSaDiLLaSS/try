@@ -1,17 +1,17 @@
 
 # Eden AI
-Enhance your apps and workflows with the power of Eden AI ! Integrate advanced AI features such as natural language processing, image recognition, document parsing, audio processing, generative AI and more.
+Enhance your apps and workflows with the power of [Eden AI](https://www.edenai.co/)! Integrate advanced AI features such as [text analysis](https://www.edenai.co/technologies/text) (sentiment analysis, keyword extraction, text moderation, etc.) , [image recognition](https://www.edenai.co/technologies/image) (object detection, face detection, explicit content detection, etc.), [document parsing](https://www.edenai.co/technologies/ocr-document-parsing) (invoice, receipt, IDs, resumes, etc.), [audio processing](https://www.edenai.co/technologies/speech), [machine translation](https://www.edenai.co/technologies/translation), [generative AI](https://www.edenai.co/technologies/generative-ai) (text generation, image generation, speech generation) and more.
 
 
 ## Prerequisites
 You will need the following to proceed:
-* Create your Eden AI account for free: https://app.edenai.run/user/login
+* [Create your Eden AI account for free](https://app.edenai.run/user/register?referral=power-apps)
 * Get your API key from your account
 ![image](https://github.com/queSaDiLLaSS/try/assets/118369217/b72d6510-6a10-4047-9656-536823f4cba3)
 
 
 ## Create a connection
-When you create a conenction to Eden AI, do not forget the keyword Bearer before your API key:
+When you create a connection to Eden AI, do not forget the keyword **Bearer** before your API key:
 ![image](https://github.com/queSaDiLLaSS/try/assets/118369217/7154fbab-0c90-4e7a-9fab-053a2c1b504f)
 
 
