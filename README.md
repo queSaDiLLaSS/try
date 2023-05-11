@@ -17,7 +17,34 @@ When you create a conenction to Eden AI, do not forget the keyword Bearer before
 
 ## Supported Operations
 The connector supports the following operations:
+
+[Convert Text into Speech](#convert-text-into-speech)
+
+[Detect Explicit Content in Images](#detect-explicit-content-in-images)
+
+[Extract Named Entities in Text](#extract-named-entities-in-text)
+
+[Detect Faces in Images](#detect-faces-in-images)
+
 [Image Generation](#image-generation)
+
+[Translate Text into another Language](#translate-text-into-another-language)
+
+[Moderate Text](#moderate-text)
+
+[Summarize a Text](#summarize-a-text)
+
+[Detect Language of Text](#detect-language-of-text)
+
+[Identify General Sentiment of a Text](#identify-general-sentiment-of-a-text)
+
+[Extract Information in Invoices](#extract-information-in-invoices)
+
+[Extract Information in Resumes](#extract-information-in-resumes)
+
+[Extract Informations in Identity Documents](#extract-informations-in-identity-documents)
+
+[Extract Information in Receipts](#extract-information-in-receipts)
 
 ### Convert Text into Speech
 Converts normal language text into speech.
