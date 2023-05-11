@@ -20,8 +20,13 @@ The connector supports the following operations:
 | Action | Description |
 | :---    | :---       |
 |[Convert Text into Speech](#convert-text-into-speech) | Converts normal language text into speech. |
-|[Detect Explicit Content in Images](#detect-explicit-content-in-images) | Detects adult explicit content in images, that is generally inappropriate for people under the age of 18 and includes nudity, sexual activity and pornography... 
-|[Extract Named Entities in Text](#extract-named-entities-in-text) | Identifies named entities in a text and classifies them into predefined categories.|
+|[Detect Explicit Content in Images](#detect-explicit-content-in-images) | Detects adult explicit content in images, that is generally inappropriate for people under the age of 18 and includes nudity, sexual activity and pornography... |
+|[Text Generation](#text-generation) | Generates text based on a given prompt. |
+|[Generate Chat Responses](#generate-chat-responses) | Generates human-like responses to various inputs and queries. |
+|[Extract Topic from Text](#extract-topic-from-text) | Extracts general topics in a text. |
+|[Extract Keywords from Text](#extract-keywords-from-text) | Extracts the most important words and expressions in a text. |
+|[Extract Named Entities in Text](#extract-named-entities-in-text) | Identifies named entities in a text and classifies them into predefined categories. |
+|[Anonymize Images](#anonymize-images) | Identifies human faces in digital images: position, sex, age, smile, glasses, etc. |
 |[Detect Faces in Images](#detect-faces-in-images) | Identifies human faces in digital images: position, sex, age, smile, glasses, etc. |
 |[Image Generation](#image-generation) | Generates compelling images based on a given prompt. |
 |[Translate Text into another Language](#translate-text-into-another-language) | Translates a text into another language using rules, statics or ML technics. |
@@ -40,7 +45,7 @@ Converts normal language text into speech.
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/audio_text_to_speech_create).
 * `text`: Enter the text you want to convert into audio.
 * `option`: Enter MALE or FEMALE to choose the voice gender.
-* `settings`: Specify specific models to use for some providers. It can be in the following format: {'google' : 'google_model', microsoft': 'microsoft_model'...}. Check the model available [here](https://staging-api.edenai.run/v2/info/provider_subfeatures?subfeature__name=text_to_speech&feature__name=audio).
+* `settings`: Specify specific models to use for some providers. It can be in the following format: {'google' : 'google_model', 'microsoft': 'microsoft_model'...}. Check the model available [here](https://api.edenai.run/v2/info/provider_subfeatures?subfeature__name=text_to_speech&feature__name=audio).
 * `rate`: Increase or decrease the speaking rate by expressing a positif or negatif number ranging between 100 and -100 (a relative value as percentage varying from -100% to 100%).
 * `pitch`: Increase or decrease the speaking pitch by expressing a positif or negatif number ranging between 100 and -100 (a relative value as percentage varying from -100% to 100%).
 * `volume`: Increase or decrease the audio volume by expressing a positif or negatif number ranging between 100 and -100 (a relative value as percentage varying from -100% to 100%).
@@ -52,11 +57,45 @@ Detects adult explicit content in images, that is generally inappropriate for pe
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/image_explicit_content_create).
 * `file`: Choose the file you want to analyze.
 
+### Text Generation
+Generates text based on a given prompt.
+* `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/text_generation_create).
+* `text`: Enter your prompt.
+* `temperature`: A value between 0 and 1. Higher values mean the model will take more risks and value 0 (argmax sampling) works better for scenarios with a well-defined answer.
+* `max_tokens`: A value between 1 and 2048. The maximum number of tokens to generate in the completion. The token count of your prompt plus max_tokens cannot exceed the model's context length.
+* `settings`: Specify specific models to use for some providers. It can be in the following format: {'openai' : 'openai_model', 'cohere': 'cohere_model'...}. Check the model available [here](https://api.edenai.run/v2/info/provider_subfeatures?subfeature__name=generation&feature__name=text).
+
+### Generate Chat Responses
+Generates human-like responses to various inputs and queries.
+* `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/text_generation_create).
+* `text`: Enter your prompt.
+* `chat_global_action`: A system message that helps set the behavior of the assistant. For example, 'You are a helpful assistant'.
+* `temperature`: A value between 0 and 1. Higher values mean the model will take more risks and value 0 (argmax sampling) works better for scenarios with a well-defined answer.
+* `max_tokens`: A value between 1 and 2048. The maximum number of tokens to generate in the completion. The token count of your prompt plus max_tokens cannot exceed the model's context length.
+* `settings`: Specify specific models to use for some providers. It can be in the following format: {'openai' : 'openai_model', 'ibm': 'ibm_model'...}. Check the model available [here](https://api.edenai.run/v2/info/provider_subfeatures?subfeature__name=chat&feature__name=text).
+
+### Extract Topic from Text
+Extracts general topics in a text.
+* `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/text_topic_extraction_create).
+* `language`: Check languages supported [here](https://docs.edenai.co/reference/text_topic_extraction_create).
+* `text`: Tap or paste the text you want to analyze.
+
+### Extract Keywords from Text
+Extracts the most important words and expressions in a text.
+* `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/text_keyword_extraction_create).
+* `language`: Check languages supported [here](https://docs.edenai.co/reference/text_keyword_extraction_create).
+* `text`: Tap or paste the text you want to analyze.
+
 ### Extract Named Entities in Text
-Identifies named entities in a text and classifies them into predefined categories.
+Generates human-like responses to various inputs and queries.
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/text_named_entity_recognition_create).
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/text_named_entity_recognition_create).
-* `text`:Tap or paste the text you want to analyze.
+* `text`: Tap or paste the text you want to analyze.
+
+### Anonymize Images
+Anonymizes an image by bluring sensitive parts (faces, car plates, etc.)
+* `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/image_anonymization_create).
+* `file`: Choose the file you want to analyze.
 
 ### Detect Faces in Images
 Identifies human faces in digital images: position, sex, age, smile, glasses, etc.
@@ -77,7 +116,7 @@ Translates a text into another language using rules, statics or ML technics.
 * `source_language`: Enter the language of your text. Check languages supported [here](https://docs.edenai.co/reference/translation_automatic_translation_create).
 * `target_language`: Enter the language of the output text. Check languages supported [here](https://docs.edenai.co/reference/translation_automatic_translation_create).
 
-### Moderate Text
+### Moderate Texts
 Moderates a text by detecting explicit content.
 * `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/text_moderation_create).
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/text_moderation_create).
@@ -89,7 +128,7 @@ Extracts the most important sentences from a text in order to create a smaller v
 * `language`: Check languages supported [here](https://docs.edenai.co/reference/text_summarize_create).
 * `text`: Tap or paste the text you want to analyze.
 * `output_sentences`: Enter the sentence number of the summary.
-* `settings`: Specify specific models to use for some providers. It can be in the following format: {'google' : 'google_model', ibm': 'ibm_model'...}. Check the model available [here](https://staging-api.edenai.run/v2/info/provider_subfeatures?subfeature__name=summarize&feature__name=text).
+* `settings`: Specify specific models to use for some providers. It can be in the following format: {'google' : 'google_model', 'ibm': 'ibm_model'...}. Check the model available [here](https://api.edenai.run/v2/info/provider_subfeatures?subfeature__name=summarize&feature__name=text).
 
 ### Detect Language of Text
 Detects language of text.
