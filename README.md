@@ -50,7 +50,7 @@ Converts normal language text into speech.
 * `pitch`: Increase or decrease the speaking pitch by expressing a positif or negatif number ranging between 100 and -100 (a relative value as percentage varying from -100% to 100%).
 * `volume`: Increase or decrease the audio volume by expressing a positif or negatif number ranging between 100 and -100 (a relative value as percentage varying from -100% to 100%).
 * `audio_format`: Optional parameter to specify the audio format in which the audio will be generated. By default, audios are encoded in MP3, except for lovoai which use the wav container.
-* `sampling_rate`: Optional. The synthesis sample rate (in hertz) for this audio. When this is specified, the audio will be converted either to the right passed value, or to a the nearest value acceptable by the provider.
+* `sampling_rate`: The synthesis sample rate (in hertz) for this audio. When this is specified, the audio will be converted either to the right passed value, or to a the nearest value acceptable by the provider.
 
 ### Detect Explicit Content in Images
 Detects adult explicit content in images, that is generally inappropriate for people under the age of 18 and includes nudity, sexual activity and pornography...
@@ -67,7 +67,7 @@ Generates text based on a given prompt.
 
 ### Generate Chat Responses
 Generates human-like responses to various inputs and queries.
-* `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/text_generation_create).
+* `providers`: Enter the selected providers seperated by a coma. Check the providers available [here](https://docs.edenai.co/reference/text_chat_create).
 * `text`: Enter your prompt.
 * `chat_global_action`: A system message that helps set the behavior of the assistant. For example, 'You are a helpful assistant'.
 * `temperature`: A value between 0 and 1. Higher values mean the model will take more risks and value 0 (argmax sampling) works better for scenarios with a well-defined answer.
