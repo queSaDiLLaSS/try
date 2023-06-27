@@ -13,7 +13,7 @@ You will need to [create your Eden AI account for free](https://app.edenai.run/u
 Once you have sign up, get your API key from your account:
 ![image](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/249094643-25b32eb7-07e8-4dc3-a56a-4b6caf08d5a7.png)
 
-When you create a connection to Eden AI, do not forget the keyword **Bearer** before your API key.
+When you create a connection to Eden AI, do not forget the keyword **Bearer** before your API key: Bearer Your_API_Key
 
 ## Get started with your connector
 
