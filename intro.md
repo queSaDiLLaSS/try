@@ -11,7 +11,7 @@ You will need to [create your Eden AI account for free](https://app.edenai.run/u
 ## How to get credentials
 
 Once you have sign up, get your API key from your account:
-![image](https://github.com/queSaDiLLaSS/try/assets/118369217/25b32eb7-07e8-4dc3-a56a-4b6caf08d5a7)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/249094643-25b32eb7-07e8-4dc3-a56a-4b6caf08d5a7.png)
 
 When you create a connection to Eden AI, do not forget the keyword **Bearer** before your API key.
 
@@ -20,13 +20,13 @@ When you create a connection to Eden AI, do not forget the keyword **Bearer** be
 Eden AI allows to create your own scenarios with a wide range of possibilites.
 Thanks to Eden AI, you can easily add AI in your scenarios as generating images or transcribing audio files:
 
-![Template Image generation](https://github.com/queSaDiLLaSS/try4edenai/assets/118369217/dcf971e1-1357-46b4-8810-a403f1a6052c)
+![Template Image generation](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/241994971-dcf971e1-1357-46b4-8810-a403f1a6052c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230627T095018Z&X-Amz-Expires=300&X-Amz-Signature=9788fa45e72de7bb9ec3935ee9a86f78642cd9b3202afdf14f631e7c63cdcc5b&X-Amz-SignedHeaders=host&actor_id=118369217&key_id=0&repo_id=647294400)
 
-![Template Speech to text](https://github.com/queSaDiLLaSS/try4edenai/assets/118369217/fe6095cb-09db-4b18-a167-22ed6725b9c2)
+![Template Speech to text](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/241995402-fe6095cb-09db-4b18-a167-22ed6725b9c2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230627T095242Z&X-Amz-Expires=300&X-Amz-Signature=a7385ac15a7c3ccac434ab24d14e61790ee2b05c171135a28b5735263e6f9fa4&X-Amz-SignedHeaders=host&actor_id=118369217&key_id=0&repo_id=647294400)
 
 You can also extract information from receipts, resumes, identity documents or invoices:
 
-![PowerApps Invoice Parser](https://github.com/queSaDiLLaSS/try4edenai/assets/118369217/6cea8a94-02a1-4c86-ae95-e4df20c81ffe)
+![PowerApps Invoice Parser](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/241995135-6cea8a94-02a1-4c86-ae95-e4df20c81ffe.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230627T095307Z&X-Amz-Expires=300&X-Amz-Signature=2749ea4963e0cf4de882518e0df8f4ff6259a2edeeb45fab3330814683e189c4&X-Amz-SignedHeaders=host&actor_id=118369217&key_id=0&repo_id=647294400)
 
 This scenario allow you to extract information such as the total amount, taxes, customer from an invoice received in Gmail and the information is automattically added into your spreadsheet (Google Sheet, Excel).
 
@@ -40,44 +40,43 @@ Here are some issues you could face while using the connector:
 * `Error 400`: Appears when you make a bad request, it means that you wrongly enter the parameters. Check how to configure them correctly with our [doc](https://docs.edenai.co/reference/start-your-ai-journey-with-edenai).
 * `Error 403`: Appears when you wrongly enter your API Key. When you create a connection, don't forget the keyword **Bearer** before your API_Key: Bearer API_KEY
 
-If you have any interrogation about our APIs, check our [documentation](https://docs.edenai.co/reference/start-your-ai-journey-with-edenai) or feel free to [contact us](https://www.edenai.co/contact).
+If you have any question about our APIs, check our [documentation](https://docs.edenai.co/reference/start-your-ai-journey-with-edenai).
 
 ## FAQ
 
 ### How to use Eden AI?
 
-If you are interested in using our platform, don't hesitate to request a demo. We will discuss the use you can make of it and answer your questions.
+You can start using the platform directly [here](https://app.edenai.run/user/register?referral=power-apps). We offer $10 of free credits to start.
 ‍
-You can also start using the platform directly. We offer $10 of free credits to start.
+If you are interested in using our platform, don't hesitate to [request a demo](https://www.edenai.co/contact?referral=power-apps) with our team of experts.
 ‍
+
 ### How much does it cost to use Eden AI?
 
 You can access Eden AI platform and get your API key for free. On the other hand, you have to pay to use the AI APIs that we provide on the platform.
 
 Their prices depend on the volume of data processed. To make it easier for you, we specify the price for each service provider on the platform. However, Eden AI does not apply any additional cost. We get paid through our partnerships with these service providers.
 
-You also get free $10 credits to try out the features on our platform. However, additional services require advanced plans.
+You can access to a cost calculator and our pricing plans [here](https://www.edenai.co/pricing?referral=power-apps).
 ‍
 ### Do I need to have AI providers accounts to use their technologies?
 
 No: We are distributors of the solutions offered by the providers integrated in Eden AI. You don't need to create any account other than Eden AI.
 
-However, you can put your own API keys to use the accounts you already have (only with advanced plans).
+However, you can put [your own API keys](https://app.edenai.run/admin/account/settings) to use the accounts you already have (only with advanced plans).
 
 ### What providers are available on Eden AI?
 
-For all technologies, Google Cloud Platform, Amazon Web Services and Microsoft Azure engines are available. However, many other specialized providers are also available depending on the technology. You can discover them directly on the platform.
+Eden AI offers you access to all the best AI providers of the market. You can use the essentials AI providers APIs: OpenAI, Google Cloud Platform, Amazon Web Services, Microsoft Azure. However, many other specialized providers are also available depending on the technology. You can discover them directly on the platform.
 
 Don't hesitate to suggest new AI engines here: contact@edenai.co
 
 ### How is the platform hosted? Will my data be stored or used by Eden AI?
 
-We manage the hosting (on Amazon Web Services servers). However, we are GDPR compliant and we don't keep any data: we are just a gateway.
+We manage the hosting (on Amazon Web Services servers). However, we are GDPR compliant and we don't keep any data: we are just a gateway. You can find information on all the AI providers integrated in Eden AI [here](https://www.edenai.co/providers?referral=power-apps).
 ‍
 The platform can be hosted on the server of your choice (including on premise) with Enterprise plan.
 
 ### I'm an AI provider, how can I add my solution to the platform?
 
-We are continuously integrating new AI engines. If you ever want to integrate your engine to one of our categories, please contact us. You can also contact us if you ever want to propose a new AI category: contact@edenai.co.
-
-For your information, the integration of an engine is free but we charge providers a commission on the revenues generated by the platform.
+We are continuously integrating new AI engines. If you ever want to integrate your engine to one of our categories, you can submit your pull-request directly on our [open-source parckage](https://github.com/edenai/edenai-apis), we will then review the integration. You can also contact us: tech@edenai.co.
