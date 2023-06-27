@@ -20,9 +20,9 @@ When you create a connection to Eden AI, do not forget the keyword **Bearer** be
 Eden AI allows to create your own scenarios with a wide range of possibilites.
 Thanks to Eden AI, you can easily add AI in your scenarios as generating images or transcribing audio files:
 
-![Template Image generation](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/241994971-dcf971e1-1357-46b4-8810-a403f1a6052c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230627T095018Z&X-Amz-Expires=300&X-Amz-Signature=9788fa45e72de7bb9ec3935ee9a86f78642cd9b3202afdf14f631e7c63cdcc5b&X-Amz-SignedHeaders=host&actor_id=118369217&key_id=0&repo_id=647294400)
+![Template Image generation](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/241994971-dcf971e1-1357-46b4-8810-a403f1a6052c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230627T100706Z&X-Amz-Expires=300&X-Amz-Signature=c627e0f3d6ee00e636142dd384ea933ce6ca127bbfdb94a666cdfb878956bf6e&X-Amz-SignedHeaders=host&actor_id=118369217&key_id=0&repo_id=647294400)
 
-![Template Speech to text](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/241995402-fe6095cb-09db-4b18-a167-22ed6725b9c2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230627T095242Z&X-Amz-Expires=300&X-Amz-Signature=a7385ac15a7c3ccac434ab24d14e61790ee2b05c171135a28b5735263e6f9fa4&X-Amz-SignedHeaders=host&actor_id=118369217&key_id=0&repo_id=647294400)
+![Template Speech to text](https://github-production-user-asset-6210df.s3.amazonaws.com/118369217/241995402-fe6095cb-09db-4b18-a167-22ed6725b9c2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230627T100511Z&X-Amz-Expires=300&X-Amz-Signature=870192b6315acf21de1065040b3a39717906117a03614c4d69c5638976ceb961&X-Amz-SignedHeaders=host&actor_id=118369217&key_id=0&repo_id=647294400)
 
 You can also extract information from receipts, resumes, identity documents or invoices:
 
